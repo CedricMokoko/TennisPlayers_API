@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+   TennisApp-postgresql:
+    image: postgres:15
+    container_name: cedric_mokoko-tennisApp-production
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=MBcv07451145.
+    ports:
+      - '5424:5432'
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
