@@ -44,6 +44,18 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.nokogiri</groupId>
+			<artifactId>nekohtml</artifactId>
+			<version>1.9.22.noko2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.nokogiri</groupId>
+			<artifactId>nekodtd</artifactId>
+			<version>0.1.11.noko2</version>
+		</dependency>
+
+		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
